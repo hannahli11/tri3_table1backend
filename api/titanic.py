@@ -4,7 +4,6 @@ from flask_restful import Api, Resource # used for REST API building
 
 # Import the TitanicModel class from the model file
 # from model.titanic import TitanicModel
-
 titanic_api = Blueprint('titanic_api', __name__,
                    url_prefix='/api/titanic')
 
